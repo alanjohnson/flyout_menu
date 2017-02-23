@@ -1,0 +1,160 @@
+.flyout_menu {
+  background: #2C2C2C;
+}
+
+#flyout_container{
+  background: rgba(0,0,0,.2);
+  position: absolute;
+  top:50%;
+  left:50%;
+  width:30px;
+  height:30px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+#another_flyout_container {
+  background: rgba(0,0,0,.2);
+  position: absolute;
+  top:25%;
+  left:25%;
+  width:100px;
+  height:100px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+#flyout_container:hover .flyout_home, #another_flyout_container:hover .flyout_home {
+  background: #f98b3d;
+}
+
+
+/** Plugin Specific Styles **/
+.flyout_home{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.flyout_home, .flyout_home.light{
+  background: #F5F5F5;
+  border: 2px solid #CFCFCF;
+  background: #2276B4;
+  border: 3px solid #ffffff;
+}
+.flyout_home.dark{
+  background: #2C2C2C;
+  border: 2px solid #8a8a8a;
+}
+
+.flyout_home table{width:60px;height:100%;margin:0 auto;}
+.flyout_home tbody{margin:0;padding:0;border: none;}
+.flyout_tooltip{
+    position: absolute;
+    font: 100%/120% "Lucida Sans Unicode","Lucida Grande",verdana,sans-serif;
+    font-size:10px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #2276B4;
+    border: 3px solid #ffffff;
+    z-index: 300;
+}
+
+.flyout_link{
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  filter:alpha(opacity=0);
+  -moz-opacity:0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  background : url('images/shareitLinks_01.png') 0 0 no-repeat;
+  box-sizing: border-box;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+.flyout_link:hover {
+  background: #f98b3d;
+}
+
+.flyout_link, .flyout_link.light{
+  background : url('images/shareitLinks_01.png') 0 0 no-repeat;
+  overflow: hidden;
+  background: #2276B4;
+  border: 3px solid #ffffff;
+}
+.flyout_link.dark{
+  background : url('images/shareitLinks_02.png') 0 0 no-repeat;
+}
+
+.flyout_link:hover{z-index:200}
+
+.flyout_link.facebook {background-position : -665px 0; /* left top*/}
+.flyout_link.facebook:hover{background-position : -665px -35px; /* left top*/}
+
+.flyout_link.twitter {background-position : -630px 0; /* left top*/}
+.flyout_link.twitter:hover{background-position : -630px -35px; /* left top*/}
+
+.flyout_link.linkedin {background-position : -595px 0; /* left top*/}
+.flyout_link.linkedin:hover {background-position : -595px -35px; /* left top*/}
+
+.flyout_link.email {background-position : -560px 0; /* left top*/}
+.flyout_link.email:hover {background-position : -560px -35px; /* left top*/}
+
+.flyout_link.delicious {background-position : -525px 0; /* left top*/}
+.flyout_link.delicious:hover {background-position : -525px -35px; /* left top*/}
+
+.flyout_link.myspace {background-position : -490px 0; /* left top*/}
+.flyout_link.myspace:hover {background-position : -490px -35px; /* left top*/}
+
+.flyout_link.digg {background-position : -455px 0; /* left top*/}
+.flyout_link.digg:hover {background-position : -455px -35px; /* left top*/}
+
+.flyout_link.googlereader {background-position : -420px 0; /* left top*/}
+.flyout_link.googlereader:hover {background-position : -420px -35px; /* left top*/}
+
+.flyout_link.googlebuzz {background-position : -385px 0; /* left top*/}
+.flyout_link.googlebuzz:hover {background-position : -385px -35px; /* left top*/}
+
+.flyout_link.google { background-position : -350px 0; /* left top*/}
+.flyout_link.google:hover { background-position : -350px -35px; /* left top*/}
+
+.flyout_link.yahoo {background-position : -315px 0; /* left top*/}
+.flyout_link.yahoo:hover {background-position : -315px -35px; /* left top*/}
+
+.flyout_link.yahoobuzz {background-position : -280px 0; /* left top*/}
+.flyout_link.yahoobuzz:hover {background-position : -280px -35px; /* left top*/}
+
+.flyout_link.blogger {background-position : -245px 0; /* left top*/}
+.flyout_link.blogger:hover {background-position : -245px -35px; /* left top*/}
+
+.flyout_link.stumbleupon {background-position : -210px 0; /* left top*/}
+.flyout_link.stumbleupon:hover {background-position : -210px -35px; /* left top*/}
+
+.flyout_link.favorites2 {background-position : -175px 0; /* left top*/}
+.flyout_link.favorites2:hover {background-position : -175px -35px; /* left top*/}
+
+.flyout_link.technorati { background-position : -140px 0; /* left top*/}
+.flyout_link.technorati:hover { background-position : -140px -35px; /* left top*/}
+
+.flyout_link.reddit {background-position : -105px 0; /* left top*/}
+.flyout_link.reddit:hover {background-position : -105px -35px; /* left top*/}
+
+.flyout_link.friendfeed {background-position : -70px 0; /* left top*/}
+.flyout_link.friendfeed:hover {background-position : -70px -35px; /* left top*/}
+
+.flyout_link.live {background-position : -35px 0; /* left top*/}
+.flyout_link.live:hover {background-position : -35px -35px; /* left top*/}
+
+.flyout_link.favorites {background-position : 0 0; /* left top*/}
+.flyout_link.favorites:hover {background-position : 0 -35px; /* left top*/}
+/** END Plugin Specific Styles **/
+
