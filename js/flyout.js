@@ -1,5 +1,5 @@
 /*
- * @author Alan Johnson
+ * @author Alan Johnson, git2go test
  */
 
 // PLACEHOLDER DATA - generating a list of social "share this" links as data for developemnt purposes.
